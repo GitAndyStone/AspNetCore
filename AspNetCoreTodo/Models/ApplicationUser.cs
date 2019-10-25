@@ -6,9 +6,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace AspNetCoreTodo.Models
 {
-    public class ManageUsersViewModel
+    public class ApplicationUser : IdentityUser
     {
-        public ApplicationUser[] Administrators { get; set; }
-        public ApplicationUser[] Everyone { get; set; }
     }
 }

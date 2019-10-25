@@ -1,5 +1,6 @@
 ﻿@model ManageUsersViewModel
 
+
 @{
     ViewData["Title"] = "Manage users";
 }
@@ -37,9 +38,9 @@
 
     @foreach (var user in Model.Everyone)
     {
-        <tr>
-            <td>@user.Id</td>
-            <td>@user.Email</td>
-        </tr>
+    <tr>
+        <td>@user.Id</td>
+        <td>@user.Email</td>
+    </tr>
     }
 </table>

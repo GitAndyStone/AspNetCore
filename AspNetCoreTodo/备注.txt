@@ -2,3 +2,16 @@
 账号：abc@123.com
 密码：Pwd
 
+这是创建一个名为“InitialCreate”的Migration
+如果你用的是powershell
+Add-Migration InitialCreate
+
+如果你用的是console
+dotnet ef migrations add InitialCreate
+
+然后更新数据库
+>powershell
+Update-Database
+
+>console
+dotnet ef database update
